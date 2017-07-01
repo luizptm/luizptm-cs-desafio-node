@@ -1,0 +1,52 @@
+{
+    "name": "luizptm-cs-nodejs",
+    "description": "cs challenge",
+    "version": "0.1.0",
+    "homepage": "https://github.com/luizptm/luizptm-cs-nodejs",
+    "author": {
+        "name": "Luiz Paulo",
+        "email": "lptm82@yahoo.com.br"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/luizptm/luizptm-cs-nodejs"
+    },
+    "license": "MIT",
+    "main": "server.js",
+    "scripts": {
+        "test": "grunt karma",
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "expressjs/body-parser",
+        "express": "expressjs/express",
+        "jsonwebtoken": "auth0/node-jsonwebtoken",
+        "mongoose": "4.11.0",
+        "moment": "moment/moment",
+        "morgan": "expressjs/morgan"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "express": "~4.2.0",
+        "grunt": "gruntjs/grunt",
+        "grunt-contrib-uglify": "gruntjs/grunt-contrib-uglify",
+        "grunt-contrib-jshint": "gruntjs/grunt-contrib-jshint",
+        "grunt-contrib-qunit": "gruntjs/grunt-contrib-qunit",
+        "grunt-contrib-watch": "gruntjs/grunt-contrib-watch",
+        "grunt-contrib-concat": "gruntjs/grunt-contrib-concat",
+        "grunt-jsdoc": "krampstudio/grunt-jsdoc",
+        "grunt-karma": "karma-runner/grunt-karma",
+        "karma": "karma-runner/karma",
+        "karma-chai": "xdissent/karma-chai",
+        "karma-mocha": "karma-runner/karma-mocha",
+        "karma-phantomjs-launcher": "karma-runner/karma-phantomjs-launcher",
+        "karma-sinon": "kmees/karma-sinon-chai",
+        "mocha": "^2.4.5",
+        "morgan": "~1.0.0",
+        "sinon": "sinonjs/sinon",
+        "sinon-chai": "domenic/sinon-chai"
+    },
+    "engine": {
+        "node": ">=5.0.0"
+    }
+}

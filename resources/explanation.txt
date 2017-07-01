@@ -1,0 +1,7 @@
+O express é o framework para App. Vai gerenciar nossas rotas e middlewares.
+O body-parser, antigamente incluso no express, vai parsear nossas requisições, permitindo que usemos urls complexas e trabalhar com formulários.
+O mongoose é o ORM que vai interagir com o MongoDb pra gente.
+O bcrypt-nodejs vai encriptar nossa senha. NUNCA salve a senha sem encriptar.
+O jwt-simple vai gerar e conferir nossos JSON Web Token
+O moment vai nos ajudar a trabalhar com data de expiração do JWT.
+O morgan para registro de requisições
